@@ -31,7 +31,7 @@ class _DeveloperState extends State<Developer> {
       home: screenWidth > 360
           ? Container(
               child: Container(
-                color: const Color.fromARGB(255, 11, 0, 92),
+                color: const Color.fromARGB(255, 255, 255, 255),
                 child: SafeArea(
                   child: Padding(
                     padding: const EdgeInsets.all(5),
@@ -60,6 +60,7 @@ class _DeveloperState extends State<Developer> {
                                     fontSize: 25,
                                     fontWeight: FontWeight.bold,
                                     fontFamily: 'aseman',
+                                    color: Colors.black
                                   ),
                                 ),
                                 Text(
@@ -68,6 +69,7 @@ class _DeveloperState extends State<Developer> {
                                     fontSize: 15,
                                     fontWeight: FontWeight.normal,
                                     fontFamily: 'aseman',
+                                    color: Colors.black
                                   ),
                                 ),
                               ],
@@ -97,14 +99,16 @@ class _DeveloperState extends State<Developer> {
                                     fontSize: 25,
                                     fontWeight: FontWeight.bold,
                                     fontFamily: 'aseman',
+                                    color: Colors.black
                                   ),
                                 ),
                                 Text(
-                                  'Developer',
+                                  'Assistant',
                                   style: TextStyle(
                                     fontSize: 15,
                                     fontWeight: FontWeight.normal,
                                     fontFamily: 'aseman',
+                                    color: Colors.black
                                   ),
                                 ),
                               ],
@@ -209,27 +213,3 @@ class _DeveloperState extends State<Developer> {
   }
 }
 
-class HomeView extends StatefulWidget {
-  const HomeView({super.key});
-  final TextStyle headingTextStyle = const TextStyle(
-      fontSize: 22,
-      color: Color.fromARGB(255, 0, 0, 0),
-      fontWeight: FontWeight.w900,
-      fontFamily: 'aseman');
-
-  final TextStyle p0sh = const TextStyle(
-      fontSize: 40,
-      fontWeight: FontWeight.w900,
-      fontFamily: 'aseman',
-      color: Color.fromARGB(255, 0, 0, 0));
-
-  @override
-  State<HomeView> createState() => _HomeViewState();
-}
-
-class _HomeViewState extends State<HomeView> {
-  @override
-  Widget build(BuildContext context) {
-    return const Placeholder();
-  }
-}

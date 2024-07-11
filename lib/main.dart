@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:shayan_plants/view/Category/category.dart';
+import 'package:shayan_plants/view/Home/home.dart';
 import 'package:shayan_plants/view/about/about.dart';
 
 void main() {
