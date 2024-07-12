@@ -12,7 +12,7 @@ class Sansveria extends StatelessWidget {
         title: const Align(
             alignment: AlignmentDirectional(-0.2, 0),
             child: Text(
-              'سانســوریا',
+              'اطلاعات',
               style: TextStyle(fontFamily: 'aseman', fontSize: 30),
             )),
         backgroundColor: Color.fromARGB(255, 0, 149, 109),
@@ -27,7 +27,7 @@ class Sansveria extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: BannerAd(
-                    '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                    '79c00362-28e1-4a30-bca6-db1840f195fe',
                     BannerAdSize.BANNER,
                     onAdLoaded: (ad) {},
                     onAdClicked: (ad) {},
@@ -45,7 +45,7 @@ class Sansveria extends StatelessWidget {
                           Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => const SnsvriaSun()),
+                                builder: (context) => SnsvriaSun()),
                           );
                         },
                         child: Container(
@@ -237,7 +237,7 @@ class Sansveria extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.topCenter,
                   child: BannerAd(
-                    '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                    '79c00362-28e1-4a30-bca6-db1840f195fe',
                     BannerAdSize.BANNER,
                     onAdLoaded: (ad) {},
                     onAdClicked: (ad) {},

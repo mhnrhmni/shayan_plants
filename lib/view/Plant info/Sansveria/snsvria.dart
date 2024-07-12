@@ -1,5 +1,7 @@
+import 'package:adivery/adivery.dart';
 import 'package:adivery/adivery_ads.dart';
 import 'package:flutter/material.dart';
+import 'package:shayan_plants/view/Plant%20info/info.dart';
 
 class SnsvriaSun extends StatefulWidget {
   const SnsvriaSun({super.key});
@@ -13,182 +15,51 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Wrap(children: [
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          SafeArea(
-            child: Align(
-              alignment: Alignment.bottomCenter,
-              child: BannerAd(
-                '3f67cda1-546c-4ab2-ae94-87613dc98d69',
-                BannerAdSize.BANNER,
-                onAdLoaded: (ad) {},
-                onAdClicked: (ad) {},
-              ),
-            ),
-          ),
-          
-        ]),
         appBar: AppBar(
           title: const Align(
-              alignment: AlignmentDirectional(-0.2, 0),
               child: Text(
-                'سانســوریا',
-                style: TextStyle(fontFamily: 'aseman', fontSize: 30),
-              )),
+            'نـــوردهـــی',
+            style: TextStyle(fontFamily: 'aseman', fontSize: 30),
+          )),
           backgroundColor: Color.fromARGB(255, 0, 149, 109),
+        ),
+        body: Column(
+          children: [
+            SafeArea(
+              child: Align(
+                alignment: Alignment.bottomCenter,
+                child: BannerAd(
+                  '79c00362-28e1-4a30-bca6-db1840f195fe',
+                  BannerAdSize.BANNER,
+                  onAdLoaded: (ad) {},
+                  onAdClicked: (ad) {},
+                ),
+              ),
+            ),
+            
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Container(
+                      width: 300,
+                      height: 40,
+                      decoration: BoxDecoration(
+                          borderRadius: BorderRadius.circular(30),
+                          color: Colors.amber),
+                      child: const Center(
+                          child: Text(
+                        'بـــازگــشت',
+                        style: TextStyle(fontFamily: 'aseman', fontSize: 30),
+                      )),
+                    ),
+                  )),
+            )
+          ],
         ),
       ),
     );

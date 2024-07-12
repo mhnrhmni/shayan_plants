@@ -23,7 +23,7 @@ class _HomeViewState extends State<HomeView> {
         child: Align(
           alignment: Alignment.bottomCenter,
           child: BannerAd(
-            '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+            '79c00362-28e1-4a30-bca6-db1840f195fe',
             BannerAdSize.BANNER,
             onAdLoaded: (ad) {},
             onAdClicked: (ad) {},
