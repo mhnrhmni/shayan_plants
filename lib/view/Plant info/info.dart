@@ -27,7 +27,7 @@ class Sansveria extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: BannerAd(
-                    '79c00362-28e1-4a30-bca6-db1840f195fe',
+                    '3f67cda1-546c-4ab2-ae94-87613dc98d69',
                     BannerAdSize.BANNER,
                     onAdLoaded: (ad) {},
                     onAdClicked: (ad) {},
@@ -78,7 +78,13 @@ class Sansveria extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SnsvriaDrop()),
+                          );
+                        },
                         child: Container(
                           decoration: BoxDecoration(
                               color: Colors.amber,
@@ -109,7 +115,13 @@ class Sansveria extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SnsvriaSoil()),
+                          );
+                        },
                         child: Container(
                           decoration: BoxDecoration(
                               color: Colors.amber,
@@ -140,7 +152,13 @@ class Sansveria extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SnsvriaContent()),
+                          );
+                        },
                         child: Container(
                           decoration: BoxDecoration(
                               color: Colors.amber,
@@ -171,7 +189,9 @@ class Sansveria extends StatelessWidget {
                     Padding(
                       padding: const EdgeInsets.all(10),
                       child: TextButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          
+                        },
                         child: Container(
                           decoration: BoxDecoration(
                               color: Colors.amber,
@@ -237,7 +257,7 @@ class Sansveria extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.topCenter,
                   child: BannerAd(
-                    '79c00362-28e1-4a30-bca6-db1840f195fe',
+                    '3f67cda1-546c-4ab2-ae94-87613dc98d69',
                     BannerAdSize.BANNER,
                     onAdLoaded: (ad) {},
                     onAdClicked: (ad) {},

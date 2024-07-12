@@ -71,6 +71,10 @@ flutter:
     - lib/image/Aglaonema.png
     - lib/image/camera.png
     - lib/image/suppurt.png
+    - lib/image/snsvria/shot1.jpg
+    - lib/image/snsvria/shot2.jpg
+    - lib/image/snsvria/shot3.jpg
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
