@@ -57,20 +57,18 @@ class _DeveloperState extends State<Developer> {
                                 Text(
                                   'ماهان رحمانی',
                                   style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                    fontFamily: 'aseman',
-                                    color: Colors.black
-                                  ),
+                                      fontSize: 25,
+                                      fontWeight: FontWeight.bold,
+                                      fontFamily: 'aseman',
+                                      color: Colors.black),
                                 ),
                                 Text(
                                   'Developer',
                                   style: TextStyle(
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.normal,
-                                    fontFamily: 'aseman',
-                                    color: Colors.black
-                                  ),
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.normal,
+                                      fontFamily: 'aseman',
+                                      color: Colors.black),
                                 ),
                               ],
                             ),
@@ -96,20 +94,18 @@ class _DeveloperState extends State<Developer> {
                                 Text(
                                   'شایان رحمانی',
                                   style: TextStyle(
-                                    fontSize: 25,
-                                    fontWeight: FontWeight.bold,
-                                    fontFamily: 'aseman',
-                                    color: Colors.black
-                                  ),
+                                      fontSize: 25,
+                                      fontWeight: FontWeight.bold,
+                                      fontFamily: 'aseman',
+                                      color: Colors.black),
                                 ),
                                 Text(
                                   'Assistant',
                                   style: TextStyle(
-                                    fontSize: 15,
-                                    fontWeight: FontWeight.normal,
-                                    fontFamily: 'aseman',
-                                    color: Colors.black
-                                  ),
+                                      fontSize: 15,
+                                      fontWeight: FontWeight.normal,
+                                      fontFamily: 'aseman',
+                                      color: Colors.black),
                                 ),
                               ],
                             ),
@@ -212,4 +208,3 @@ class _DeveloperState extends State<Developer> {
     );
   }
 }
-
