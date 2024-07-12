@@ -61,11 +61,17 @@ flutter:
   assets:
     - lib/image/1.jpg
     - lib/image/2.jpg
-    - lib/image/back.jpg
     - lib/image/dfnbkhia.png
     - lib/image/snsvria.png
     - lib/image/ficus.png
+    - lib/image/sun.png
+    - lib/image/soil.png
+    - lib/image/drop.png
+    - lib/image/content.png
     - lib/image/Aglaonema.png
+    - lib/image/camera.png
+    - lib/image/suppurt.png
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
