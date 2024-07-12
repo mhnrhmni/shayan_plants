@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:adivery/adivery_ads.dart';
 import 'package:adivery/adivery.dart';
-
+import 'package:shayan_plants/view/Plant%20info/info.dart';
 
 class Category extends StatefulWidget {
   const Category({Key? key}) : super(key: key);
@@ -27,6 +27,7 @@ class _CategoryState extends State<Category> {
     super.initState();
     AdiveryPlugin.initialize('fe9e968d-2911-47ed-ace4-01484463f13e');
   }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,7 +54,13 @@ class _CategoryState extends State<Category> {
                   Padding(
                     padding: const EdgeInsets.all(10),
                     child: TextButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const Sansveria()),
+                        );
+                      },
                       child: Container(
                         decoration: BoxDecoration(
                             color: Colors.amber,

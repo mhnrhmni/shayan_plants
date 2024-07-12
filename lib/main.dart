@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
           initialIndex: 1,
           child: Scaffold(
             appBar: AppBar(
-              title: const Align(alignment:Alignment.centerRight,child:  Text('گل و گیاه شایان',style: TextStyle(fontFamily: 'aseman',fontSize: 30),)),
+              title: const Align(alignment:Alignment.center,child:  Text('گل و گیاه شایان',style: TextStyle(fontFamily: 'aseman',fontSize: 30),)),
               backgroundColor: Color.fromARGB(255, 0, 149, 109),
             ),
             bottomNavigationBar: menu(),
