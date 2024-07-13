@@ -862,18 +862,26 @@ class _SnsvriaCameraState extends State<SnsvriaCamera> {
                                 borderRadius: BorderRadius.circular(30),
                                 child:
                                     Image.asset('lib/image/snsvria/shot1.jpg')),
-                            ElevatedButton.icon(
-                              style: ElevatedButton.styleFrom(
-                                shape: BeveledRectangleBorder(),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: ElevatedButton.icon(
+                                style: ElevatedButton.styleFrom(
+                                  shape: const StadiumBorder(),
+                                  backgroundColor: const Color.fromARGB(255, 0, 149, 109)
+                                ),
+                                icon:  Icon(Icons.download_rounded,color: Color.fromARGB(255, 255, 255, 255),),
+                                label: const Text('دانـــلود تــصویـر',style: TextStyle(
+                                  fontFamily: 'aseman',
+                                  fontSize: 30,
+                                  color: Color.fromARGB(255, 182, 255, 235)
+                                ),),
+                                onPressed: () async {
+                                  String url =
+                                      'https://bagheeram.com/wp-content/uploads/2023/01/best-soil-for-sansevieria-01-min.jpg';
+                                  await GallerySaver.saveImage(url,
+                                      albumName: 'Giaheto');
+                                },
                               ),
-                              icon: const Icon(Icons.download_rounded),
-                              label: const Text('دانـــلود تــصویـر'),
-                              onPressed: () async {
-                                String url =
-                                    'https://bagheeram.com/wp-content/uploads/2023/01/best-soil-for-sansevieria-01-min.jpg';
-                                await GallerySaver.saveImage(url,
-                                    albumName: 'Giaheto');
-                              },
                             ),
                             Padding(
                               padding: const EdgeInsets.all(8.0),
