@@ -1,5 +1,9 @@
+import 'package:adivery/adivery.dart';
 import 'package:adivery/adivery_ads.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:gallery_saver/gallery_saver.dart';
+import 'dart:core';
 
 class SnsvriaSun extends StatefulWidget {
   const SnsvriaSun({super.key});
@@ -9,6 +13,12 @@ class SnsvriaSun extends StatefulWidget {
 }
 
 class _SnsvriaSunState extends State<SnsvriaSun> {
+  @override
+  void initState() {
+    super.initState();
+    AdiveryPlugin.initialize('14e0507e-394a-442a-8c7a-01e254fdf3e8');
+  }
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -30,7 +40,7 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: BannerAd(
-                      '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                      'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                       BannerAdSize.BANNER,
                       onAdLoaded: (ad) {},
                       onAdClicked: (ad) {},
@@ -41,8 +51,9 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
                   padding: const EdgeInsets.all(13.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 229, 255, 248),
-                        border: Border.all(color: Color.fromARGB(255, 0, 149, 109), width: 3),
+                        color: Color.fromARGB(255, 229, 255, 248),
+                        border: Border.all(
+                            color: Color.fromARGB(255, 0, 149, 109), width: 3),
                         borderRadius: BorderRadius.circular(30)),
                     child: Padding(
                       padding: const EdgeInsets.all(13.0),
@@ -58,7 +69,7 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -86,7 +97,7 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -120,7 +131,7 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -144,7 +155,7 @@ class _SnsvriaSunState extends State<SnsvriaSun> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -204,6 +215,12 @@ class SnsvriaDrop extends StatefulWidget {
 
 class _SnsvriaDropState extends State<SnsvriaDrop> {
   @override
+  void initState() {
+    super.initState();
+    AdiveryPlugin.initialize('14e0507e-394a-442a-8c7a-01e254fdf3e8');
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Stack(
@@ -224,7 +241,7 @@ class _SnsvriaDropState extends State<SnsvriaDrop> {
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: BannerAd(
-                      '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                      'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                       BannerAdSize.BANNER,
                       onAdLoaded: (ad) {},
                       onAdClicked: (ad) {},
@@ -235,8 +252,9 @@ class _SnsvriaDropState extends State<SnsvriaDrop> {
                   padding: const EdgeInsets.all(13.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 229, 255, 248),
-                        border: Border.all(color: Color.fromARGB(255, 0, 149, 109), width: 3),
+                        color: Color.fromARGB(255, 229, 255, 248),
+                        border: Border.all(
+                            color: Color.fromARGB(255, 0, 149, 109), width: 3),
                         borderRadius: BorderRadius.circular(30)),
                     child: Padding(
                       padding: const EdgeInsets.all(13.0),
@@ -252,7 +270,7 @@ class _SnsvriaDropState extends State<SnsvriaDrop> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -280,7 +298,7 @@ class _SnsvriaDropState extends State<SnsvriaDrop> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -314,7 +332,7 @@ class _SnsvriaDropState extends State<SnsvriaDrop> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -338,7 +356,7 @@ class _SnsvriaDropState extends State<SnsvriaDrop> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -398,6 +416,12 @@ class SnsvriaSoil extends StatefulWidget {
 
 class _SnsvriaSoilState extends State<SnsvriaSoil> {
   @override
+  void initState() {
+    super.initState();
+    AdiveryPlugin.initialize('14e0507e-394a-442a-8c7a-01e254fdf3e8');
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Stack(
@@ -418,7 +442,7 @@ class _SnsvriaSoilState extends State<SnsvriaSoil> {
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: BannerAd(
-                      '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                      'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                       BannerAdSize.BANNER,
                       onAdLoaded: (ad) {},
                       onAdClicked: (ad) {},
@@ -429,8 +453,9 @@ class _SnsvriaSoilState extends State<SnsvriaSoil> {
                   padding: const EdgeInsets.all(13.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 229, 255, 248),
-                        border: Border.all(color: Color.fromARGB(255, 0, 149, 109), width: 3),
+                        color: Color.fromARGB(255, 229, 255, 248),
+                        border: Border.all(
+                            color: Color.fromARGB(255, 0, 149, 109), width: 3),
                         borderRadius: BorderRadius.circular(30)),
                     child: Padding(
                       padding: const EdgeInsets.all(13.0),
@@ -446,7 +471,7 @@ class _SnsvriaSoilState extends State<SnsvriaSoil> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -474,7 +499,7 @@ class _SnsvriaSoilState extends State<SnsvriaSoil> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -508,7 +533,7 @@ class _SnsvriaSoilState extends State<SnsvriaSoil> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -532,7 +557,7 @@ class _SnsvriaSoilState extends State<SnsvriaSoil> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -592,6 +617,12 @@ class SnsvriaContent extends StatefulWidget {
 
 class _SnsvriaContentState extends State<SnsvriaContent> {
   @override
+  void initState() {
+    super.initState();
+    AdiveryPlugin.initialize('14e0507e-394a-442a-8c7a-01e254fdf3e8');
+  }
+
+  @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Stack(
@@ -612,7 +643,7 @@ class _SnsvriaContentState extends State<SnsvriaContent> {
                   child: Align(
                     alignment: Alignment.bottomCenter,
                     child: BannerAd(
-                      '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                      'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                       BannerAdSize.BANNER,
                       onAdLoaded: (ad) {},
                       onAdClicked: (ad) {},
@@ -623,8 +654,9 @@ class _SnsvriaContentState extends State<SnsvriaContent> {
                   padding: const EdgeInsets.all(13.0),
                   child: Container(
                     decoration: BoxDecoration(
-                      color: Color.fromARGB(255, 229, 255, 248),
-                        border: Border.all(color: Color.fromARGB(255, 0, 149, 109), width: 3),
+                        color: Color.fromARGB(255, 229, 255, 248),
+                        border: Border.all(
+                            color: Color.fromARGB(255, 0, 149, 109), width: 3),
                         borderRadius: BorderRadius.circular(30)),
                     child: Padding(
                       padding: const EdgeInsets.all(13.0),
@@ -640,7 +672,7 @@ class _SnsvriaContentState extends State<SnsvriaContent> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -668,7 +700,7 @@ class _SnsvriaContentState extends State<SnsvriaContent> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -702,7 +734,7 @@ class _SnsvriaContentState extends State<SnsvriaContent> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -726,7 +758,7 @@ class _SnsvriaContentState extends State<SnsvriaContent> {
                               child: Align(
                                 alignment: Alignment.bottomCenter,
                                 child: BannerAd(
-                                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                                   BannerAdSize.BANNER,
                                   onAdLoaded: (ad) {},
                                   onAdClicked: (ad) {},
@@ -787,7 +819,225 @@ class SnsvriaCamera extends StatefulWidget {
 class _SnsvriaCameraState extends State<SnsvriaCamera> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Stack(
+        children: [
+          Scaffold(
+            appBar: AppBar(
+              title: const Align(
+                  child: Text(
+                'گالـــری تــصاویر',
+                style: TextStyle(fontFamily: 'aseman', fontSize: 30),
+              )),
+              backgroundColor: Color.fromARGB(255, 0, 149, 109),
+            ),
+            body: ListView(
+              physics: const BouncingScrollPhysics(),
+              children: [
+                SafeArea(
+                  child: Align(
+                    alignment: Alignment.bottomCenter,
+                    child: BannerAd(
+                      'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                      BannerAdSize.BANNER,
+                      onAdLoaded: (ad) {},
+                      onAdClicked: (ad) {},
+                    ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(13.0),
+                  child: Container(
+                    decoration: BoxDecoration(
+                        color: Color.fromARGB(255, 229, 255, 248),
+                        border: Border.all(
+                            color: Color.fromARGB(255, 0, 149, 109), width: 3),
+                        borderRadius: BorderRadius.circular(30)),
+                    child: Padding(
+                      padding: const EdgeInsets.all(13.0),
+                      child: Center(
+                        child: Column(
+                          children: [
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                            ElevatedButton.icon(
+                              style: ElevatedButton.styleFrom(
+                                shape: BeveledRectangleBorder(),
+                              ),
+                              icon: const Icon(Icons.download_rounded),
+                              label: const Text('دانـــلود تــصویـر'),
+                              onPressed: () async {
+                                String url =
+                                    'https://bagheeram.com/wp-content/uploads/2023/01/best-soil-for-sansevieria-01-min.jpg';
+                                await GallerySaver.saveImage(url,
+                                    albumName: 'Giaheto');
+                              },
+                            ),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot2.jpg')),
+                            Padding(
+                              padding: EdgeInsets.all(8),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot3.jpg')),
+                            Padding(
+                              padding: EdgeInsets.all(8),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                            Padding(
+                              padding: const EdgeInsets.all(8.0),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                            Padding(
+                              padding: EdgeInsets.only(bottom: 30),
+                              child: Align(
+                                alignment: Alignment.bottomCenter,
+                                child: BannerAd(
+                                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
+                                  BannerAdSize.BANNER,
+                                  onAdLoaded: (ad) {},
+                                  onAdClicked: (ad) {},
+                                ),
+                              ),
+                            ),
+                            ClipRRect(
+                                borderRadius: BorderRadius.circular(30),
+                                child:
+                                    Image.asset('lib/image/snsvria/shot1.jpg')),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ),
+          Align(
+            alignment: Alignment.bottomCenter,
+            child: Padding(
+              padding: const EdgeInsets.all(30),
+              child: FloatingActionButton.extended(
+                  backgroundColor: Color.fromARGB(255, 0, 149, 109),
+                  onPressed: () {
+                    Navigator.pop(context);
+                  },
+                  label: const Align(
+                    alignment: Alignment.bottomCenter,
+                    child: Center(
+                        child: Text(
+                      'بـــازگــشت',
+                      style: TextStyle(
+                          fontFamily: 'aseman',
+                          fontSize: 30,
+                          color: Colors.black),
+                    )),
+                  )),
+            ),
+          )
+        ],
+      ),
+    );
+    ;
   }
 }
 
@@ -801,6 +1051,21 @@ class SnsvriaSupport extends StatefulWidget {
 class _SnsvriaSupportState extends State<SnsvriaSupport> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Scaffold(
+        body: ElevatedButton.icon(
+          style: ElevatedButton.styleFrom(
+            shape: StadiumBorder(),
+          ),
+          icon: const Icon(Icons.download_rounded),
+          label: const Text('دانـــلود تــصویـر'),
+          onPressed: () async {
+            String url =
+                'https://bagheeram.com/wp-content/uploads/2023/01/best-soil-for-sansevieria-01-min.jpg';
+            await GallerySaver.saveImage(url, albumName: 'Giaheto');
+          },
+        ),
+      ),
+    );
   }
 }

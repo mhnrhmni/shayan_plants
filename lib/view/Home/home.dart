@@ -13,7 +13,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   void initState() {
     super.initState();
-    AdiveryPlugin.initialize('3f67cda1-546c-4ab2-ae94-87613dc98d69');
+    AdiveryPlugin.initialize('14e0507e-394a-442a-8c7a-01e254fdf3e8');
   }
 
   @override
@@ -23,7 +23,7 @@ class _HomeViewState extends State<HomeView> {
         child: Align(
           alignment: Alignment.bottomCenter,
           child: BannerAd(
-            '79c00362-28e1-4a30-bca6-db1840f195fe',
+            'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
             BannerAdSize.BANNER,
             onAdLoaded: (ad) {},
             onAdClicked: (ad) {},

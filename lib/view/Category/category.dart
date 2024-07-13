@@ -25,7 +25,7 @@ class _CategoryState extends State<Category> {
   @override
   void initState() {
     super.initState();
-    AdiveryPlugin.initialize('fe9e968d-2911-47ed-ace4-01484463f13e');
+    AdiveryPlugin.initialize('14e0507e-394a-442a-8c7a-01e254fdf3e8');
   }
 
   @override
@@ -40,7 +40,7 @@ class _CategoryState extends State<Category> {
               child: Align(
                 alignment: Alignment.bottomCenter,
                 child: BannerAd(
-                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                   BannerAdSize.BANNER,
                   onAdLoaded: (ad) {},
                   onAdClicked: (ad) {},
@@ -405,7 +405,7 @@ class _CategoryState extends State<Category> {
               child: Align(
                 alignment: Alignment.topCenter,
                 child: BannerAd(
-                  '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                  'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                   BannerAdSize.BANNER,
                   onAdLoaded: (ad) {},
                   onAdClicked: (ad) {},

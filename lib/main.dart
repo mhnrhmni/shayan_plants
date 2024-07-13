@@ -13,6 +13,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 1, 178, 158)),
+      ),
       home: Scaffold(
         body: DefaultTabController(
           length: 3,

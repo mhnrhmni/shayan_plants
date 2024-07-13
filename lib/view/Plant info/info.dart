@@ -4,6 +4,7 @@ import 'package:shayan_plants/view/Plant%20info/Sansveria/snsvria.dart';
 
 class Sansveria extends StatelessWidget {
   const Sansveria({super.key});
+  
 
   @override
   Widget build(BuildContext context) {
@@ -12,7 +13,7 @@ class Sansveria extends StatelessWidget {
         title: const Align(
             alignment: AlignmentDirectional(-0.2, 0),
             child: Text(
-              'اطلاعات',
+              'سـانســوریا',
               style: TextStyle(fontFamily: 'aseman', fontSize: 30),
             )),
         backgroundColor: Color.fromARGB(255, 0, 149, 109),
@@ -27,7 +28,7 @@ class Sansveria extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.bottomCenter,
                   child: BannerAd(
-                    '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                    'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                     BannerAdSize.BANNER,
                     onAdLoaded: (ad) {},
                     onAdClicked: (ad) {},
@@ -190,7 +191,11 @@ class Sansveria extends StatelessWidget {
                       padding: const EdgeInsets.all(10),
                       child: TextButton(
                         onPressed: () {
-                          
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => SnsvriaCamera()),
+                          );
                         },
                         child: Container(
                           decoration: BoxDecoration(
@@ -257,7 +262,7 @@ class Sansveria extends StatelessWidget {
                 child: Align(
                   alignment: Alignment.topCenter,
                   child: BannerAd(
-                    '3f67cda1-546c-4ab2-ae94-87613dc98d69',
+                    'c13cd83d-f817-44b1-9fc5-1eb7440e7d46',
                     BannerAdSize.BANNER,
                     onAdLoaded: (ad) {},
                     onAdClicked: (ad) {},
